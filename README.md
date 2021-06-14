@@ -6,5 +6,5 @@ Map will show how much marijuana is sold by 2 categories: Medical Mrijuana sales
 - Point by the number of retailers (including medical) by county 
 
 Data source
-- Medical marijuana statistics and <a href="https://cdphe.colorado.gov/medical-marijuana-registry-data" target=blank> data </a>
-- MED Licensed Facilities <a href="https://sbg.colorado.gov/med-licensed-facilities" target=blank> Stores </a>
+- Medical marijuana statistics: <a href="https://cdphe.colorado.gov/medical-marijuana-registry-data" target=blank> data </a>
+- MED Licensed Facilities: <a href="https://sbg.colorado.gov/med-licensed-facilities" target=blank> Stores </a>
