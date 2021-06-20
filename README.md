@@ -7,5 +7,5 @@ Colorado is one of the states where cannabis products are sold for the recreatio
 
 ## Data source
 - CDPHE CDOE School Locations and District Office Locations in Denver, Colorado: <a href="https://data-cdphe.opendata.arcgis.com/datasets/fec1a4755e7f454389dcd18e183c8e08_0/explore?location=39.008259%2C-105.547550%2C7.97&showTable=true" target="blank"> data </a>
-- Top Colorado Marijuana Dispensaries: <a href="https://www.google.com/maps/d/u/0/viewer?msa=0&mid=1H3rvxormCOmA_ugjJyyPvaBdOgY&ll=39.52422004040791%2C-105.8115934453125&z=9" target=blank> KML file </a>
+- Denver Marijuana Dispensaries: <a href="https://www.google.com/maps/d/u/0/viewer?ie=UTF8&hl=en&msa=0&t=h&z=10&mid=1x7m0sPPdIli-Ty_5Lxf34Xjuxjk&ll=39.65969552327912%2C-104.9889105" target=blank> KML file </a>
 

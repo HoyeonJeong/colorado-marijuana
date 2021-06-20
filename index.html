@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <title>Breweries</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #d3d3d3;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      color: #3d3d3d;
+    }
+
+    section {
+      width: 80%;
+      margin: 10px auto;
+    }
+
+    h1 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 2.5em;
+      /* The em unit. 2.5x the current size */
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      color: gray;
+      font-size: 1.25em;
+      letter-spacing: .04em;
+    }
+
+    p {
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+
+    a {
+      color: #005daa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 10px 0
+    }
+
+    #map {
+      width: 100%;
+      margin: 0px auto;
+
+    }
+
+    .max-image-width {
+      width: 100%;
+    }
+
+
+    .linkbox {
+      margin: 3px 0 20px 0;
+      display: block;
+      font-weight: 300;
+    }
+
+    hr {
+      border: 0px;
+      border-bottom: 1px solid #3d3d3d;
+      padding-top: 20px;
+    }
+
+    /* Use float property to make two-column layout. */
+
+    .first-column {
+      float: left;
+      width: 48%;
+      padding-right: 50px;
+    }
+
+    .column {
+      float: left;
+      width: 48%;
+    }
+
+    /* Clear floats after the columns */
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* When browser is 800px wide or less */
+
+    @media screen and (max-width: 800px) {
+
+      .first-column,
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <!-- Add map to top of page and make it stretch to fill browser window. -->
+    <img class="max-image-width" src="images/marijuana_1200px.tiff">
+
+    <!-- Create a two column layout for map information. -->
+    <a href='/images/marijuana_8000px.png' class="linkbox">Full screen version</a>
+
+
+
+    <div class="row">
+
+      <!-- First column, the left half -->
+      <div class="first-column">
+        <h1>How Many Breweries are there?</h1>
+        <h2>Authored by: Hoyeon Jeong</h2>
+        <p>The Map of Brewereis in North America and Hawaii shows the number of breweries per hexagons of 10 miles in length for the hexagon's short diagnol</p>
+        <p>Some other info including the <a href="/lab-05/geojason/breweries.geojson">link to the GeoJSON</a></p>
+        <p>The Map of a hexagon where 152 breweries are gathered in the part of Portland (Oregon) shows the number of breweries per hexagons of 1.6 miles (2km) in length for the hexagon's short diagnol</p>
+        <h3>About Map</h3>
+    <p>
+      <li>Prdouced by Hoyeon Jeong</li>
+      <li>Software: QGIS 3.18 on WIndows 10 Professional</li>
+      <li>CRS: North America Albers Equal Area Conic</li>
+      <li>Scale: 1:25,000,000</li>
+      <li>Sources:</li>
+      <dd>Breweries and brewpubs:<a href="http://www.poi-factory.com/" target="blank">The POI Factory</a>  on Nov 11, 2019 </dd>
+      <dd>Countries and States Map: <a href="https://www.naturalearthdata.com/" target="blank">Natural Earth 1:10-million scale dataset</a></dd>
+      <dd>Primary Road: <a href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2016&layergroup=Roads" target="blank">US Census Bureau 2016 TIGER/Line® Shapefiles</a></dd>
+      <dd>Hopworks Urban Brewery image: <a href="https://goo.gl/maps/26UaZP47esdKjB5H6" target="blank">Google Map</a></dd>
+    </p>
+    <p>
+      University of Kentucky, Spring 2021.
+    </p>
+      </div>
+
+      <!-- Second column, the right half -->
+      <div class="column">
+        <!-- Challenge map -->
+        <img class="max-image-width" src="images/ID1619_brewer_1200px.png">
+        <p class="linkbox">Portland, Oregon<a href='images/ID1619_brewer_8000px.png', target="blank"> (See High Resoultion) </a> </p> 
+       
+
+        <!-- Challenge photograph -->
+        <img class="max-image-width" src="images/hopworks_brewery.png">
+        Hopworks Urban Brewery (2944 SE Powell Blvd, Portland, OR)
+
+      </div>
+    </div>
+
+
+    <hr>
+    <ul>
+      <li>Visit my Github account <a href='https://github.com/HoyeonJeong'>@Hoyeon Jeong</a> </li>
+    </ul>
+  </section>
+
+</body>
+
+</html>
