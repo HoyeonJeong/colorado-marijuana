@@ -1,0 +1,6 @@
+{
+    // Required properties
+    "title": "The Risks of Marijuana for Youth", // Give your project a good title
+    "info": "Positioning schools and marijuana retail stores on the map of Denver, Colorado. I add hexagons showing the number of dispensaries of 1km.", // A short blurb about your project
+    "coordinates": [39.704, -104.979], // IMPORTANT: the lat, long centerpoint of your project
+}
